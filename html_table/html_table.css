@@ -1,0 +1,19 @@
+table,th,td
+{
+    border:2px solid red;
+    border-radius: 20px;
+}
+th,td
+{
+padding:20px 30px;
+text-align: center;
+}
+table{
+    width:50%;
+}
+my-id{
+    width:10%;
+}
+my-name{
+    width:60%
+}
