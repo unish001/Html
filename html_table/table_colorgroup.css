@@ -1,0 +1,29 @@
+#animal-table
+{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+/*descedent selector: select all the tr tags inside animal table is*/
+#animal-table tr{
+    height: 40px;
+    border-bottom: 2px solid red;
+}
+#animal-table tr:nth-child(odd){
+    background-color: chartreuse;
+    color:white;
+}
+#animal-table tr:hover{
+    background-color: chartreuse;
+    color:black;
+    cursor: pointer;
+}
+#animal-table th:nth-child(3),
+#animal-table th:nth-child(5),
+#animal-table th:nth-child(3),
+#animal-table th:nth-child(5)
+{
+font-style: italic;
+color: fff;
+font-size: 30px;
+}
