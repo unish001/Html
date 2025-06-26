@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+<body>  
+    <h1>Register Form</h1>
+        <form action= ""onsubmit="alert('Form is submit')" >
+        <label>Username</label>
+        <input type="text" placeholder="Entet your Username" name="Username"required>
+        <br><br>
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" name="Email" required>
+        <br><br>
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" name="Password" required>
+        <br><br>
+        <label for="Birthday">Birthday</label>
+        <input id="Birthday" type="date" name="Birthday" required>
+        <br> <br>
+        <b>Select your gender</b>
+        <div>
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">
+                Other
+            </label>
+            
+        </div>
+        <br>
+        <label>Select fav sport</label>
+       <select name="Fav sport">
+        <option>Football</option>
+        <option>Cricket</option>
+        <option>Volleyball</option>
+       </select>
+       <br><br>
+       <label>Enter Some Comments
+        <textarea name="Comments" cols="30" rows="10"></textarea>
+        </label>
+        <br><br>
+        <label>
+            Pick your profile
+            <input type="file" name="profile" accept=".jpg, .ipeg, .png" multiple>
+        </label>
+        <br><br>
+        <label>Select your fav fruit</label>
+        <input name="Fav fruit" list="fruits">
+        <datalist id="fruits">
+            <option value="apple"></option>
+            <option value="banana"></option>
+            <option value="mango"></option>
+            <option value="grapes"></option>
+        </datalist>
+        <br>
+        <label for="terms">
+            <input id="terms" type="checkbox" name="terms" required>
+            I agree to the terms and condition
+        </label>
+        <br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+     <h4>Output tag</h4>
+
+    <form oninput="x.value= parseInt(a.value) + parseInt(b.value)">
+        <input type="range" id="a" name="a" value="10">
+         +
+        <input type="number" id="b" name="b" value="20">
+        =
+        <output name="x" for="a b"></output>
+    </form>
+</body>
+</html>
