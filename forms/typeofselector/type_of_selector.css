@@ -1,0 +1,44 @@
+#parent > p {
+    background-color: crimson;
+}
+
+#parent p {
+    color: darkkhaki;
+    font-size: 30px;
+}
+
+p[title="lorem"] {
+    font-size: 50px;
+    font-style: italic;
+}
+
+p[title="another paragraph"] {
+    font-size: 50px;
+    font-style: italic;
+    background-color: rgb(72, 255, 0);
+}
+
+#a, #b, #c { /* fixed selector */
+    border-radius: 20px;
+    box-shadow: 4px 5px gray; /* fixed syntax */
+    border: 1px solid red;
+    margin: 20px;
+}
+
+#a {
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+}
+
+#b {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(255, 0, 68);
+}
+
+#c {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0, 255, 21);
+}

@@ -1,0 +1,27 @@
+#tooltip{
+    height: 200px;
+    width: 600px;
+    background-color: chartreuse;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+#tooltip-content{
+    background-color: blue;
+    color: beige;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: -400px;
+    transition: is all ease-in-out;
+}
+#tooltip:hover #tooltip-content{
+    display: block;
+    left: 40px;
+}
