@@ -1,0 +1,27 @@
+p::first-line{
+    color: red;
+    font-size: 20px;
+}
+p::first-letter{
+    font-size: 50px;
+    color: blue;
+    font-style: italic;
+}
+p::before{
+    content:"###";
+
+}
+
+p::after{
+    content: "####";
+}
+
+p::selection{
+    background-color: yellowgreen;
+    color: aquamarine;
+}
+li::marker{
+    font-size: large;
+    color: brown;
+}
+

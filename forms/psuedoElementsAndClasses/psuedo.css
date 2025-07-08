@@ -1,4 +1,4 @@
-#tooltip{
+#tooltip {
     height: 200px;
     width: 600px;
     background-color: chartreuse;
@@ -11,7 +11,9 @@
     cursor: pointer;
     position: relative;
 }
-#tooltip-content{
+
+#tooltip-content {
+    display: none;
     background-color: blue;
     color: beige;
     padding: 5px;
@@ -19,9 +21,27 @@
     position: absolute;
     bottom: 10px;
     left: -400px;
-    transition: is all ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-#tooltip:hover #tooltip-content{
+
+#tooltip:hover #tooltip-content {
     display: block;
     left: 40px;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+.abc:first-child {
+    color: darkblue;
+    font-size: 50px;
+}
+
+.abc:last-child {
+    color: darkblue;
+}
+
+.abc:nth-child(4) {
+    color: brown;
 }
