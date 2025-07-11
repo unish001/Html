@@ -1,0 +1,27 @@
+p{
+    font-size: 40px;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    text-align: justify;
+    line-height: 50px;
+    text-indent: 100px;
+    text-shadow: 4px 4px 5px grey;
+    font-family: cursive;
+}
+#overline{
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-transform: uppercase;
+    transition: 3s all ease-in-out;
+#overline:hover{
+    transform: rotate(360deg);
+}
+
+}
+
+#overthrough{
+    text-decoration: line-through double green 3px;
+    text-transform: capitalize  ;
+}
