@@ -28,3 +28,9 @@
     position:sticky;
     top: 5px;
 }
+#sticky-content{
+    height: 600px;
+    background-color: black;
+    width: 500px;
+    overflow: auto;
+}
